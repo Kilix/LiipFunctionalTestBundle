@@ -20,6 +20,9 @@
         "symfony/browser-kit": "~2.0",
         "doctrine/common": "2.*"
     },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^3.1@dev"
+    },
     "suggest": {
         "doctrine/doctrine-fixtures-bundle": "Required when using the fixture loading functionality",
         "doctrine/orm": "Required when using the fixture loading functionality with an ORM and SQLite",
